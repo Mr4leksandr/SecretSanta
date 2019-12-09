@@ -1,0 +1,156 @@
+:root{
+    --dark-red:#BD152E;
+    --dark-red-alfa:rgba(189, 21, 46, 0.8);
+    --green: #07A294;
+}
+
+body{
+    font-family: 'Ubuntu';
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid{
+    padding: 0;
+}
+
+#title{
+    padding: 3% 15%;
+    background-color: var(--dark-red);
+    color: white;
+}
+
+h1{
+    
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.navbar{
+    padding-bottom: 4.5rem;
+    padding-left: 0;
+    width: auto;
+}
+
+.navbar-brand{
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.download-btn{
+    margin: 5% 3% 5% 0;
+}
+
+.title-image{
+    width: 55%;
+    transform: rotate(10deg);
+}
+
+.features .row{
+    margin: 0;
+    padding: 0;
+}
+
+.features{
+    padding: 7% 15%;
+    background-color: #ffffff;
+}
+
+.feature-box{
+    text-align: center;
+    padding: 5%;
+}
+
+.feature-box h3{
+    font-family: "Montserrat";
+    font-weight: 900;
+}
+
+.feature-box p{
+    color: #8f8f8f;
+}
+
+.features i{
+    color: var(--dark-red);
+    margin-bottom: 1rem;
+}
+
+.features i:hover{
+    color: var(--green);
+}
+
+.testimonials{
+    background-color: var(--dark-red);
+    color: #ffffff;
+    text-align: center;
+}
+
+.testimonials h2{
+    font-family: "Montserrat";
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+.testimonials img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 2rem;
+}
+
+.press{
+    text-align: center;
+    padding: 3%;
+    background-color: var(--dark-red);
+}
+
+.press-logo{
+    width: 15%;
+    margin: 1.4rem 1.8rem;
+}
+
+.carousel-item{
+    padding: 7% 15%;
+}
+
+.pricing{
+    padding: 4rem;
+    text-align: center;
+}
+
+.prising-column{
+    padding: 3% 2%;
+}
+
+.cta{
+    background-color: var(--dark-red);
+    text-align: center;
+    padding-bottom: 150px;
+}
+
+.cta h3{
+    color: white;
+    padding-top: 150px;
+    font-size: 5rem;
+    line-height: 1.5;
+    font-weight: 900;
+}
+
+.btn2{
+    margin: 3% 3% 5% 0;
+    padding: 10px 2rem 10px 1rem;
+}
+
+.section{
+    text-align: center;
+}
+
+.botton-box{
+    margin-top: 200px;
+    margin-bottom: 80px;
+    font-size: 1.5rem;
+}
